@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 
-import os
-app = FastAPI()
+# import os
+# app = FastAPI()
 
-@app.get("/")
+# @app.get("/")
 
-def read_root():
-    return {"Hello Texas"}
+# def read_root():
+#     return {"Hello Texas"}
+
+print ("Hello World!")
